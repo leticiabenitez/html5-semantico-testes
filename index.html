@@ -1,0 +1,134 @@
+<html lang="pt-br" dir="ltr">
+    <head>
+        <meta charset="utf-8"/>
+        <base href="https://meusite.com/">
+        <title>Exemplos</title>
+    </head>
+    <body>
+        <header>
+            <h1>Meu site</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">item 1</a></li>
+                    <li><a href="#">item 2</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <article>
+                <section>
+                    <h2>Titulo</h2>
+                    <p>texto <strong>importante</strong> aqui</p>
+                    <p>texto <em>enfase</em> aqui</p>
+                    <p>texto <mark>grifado</mark> aqui</p>
+                    <p>texto <del>removido</del> aqui</p>
+                    <p>texto <ins>sublinhado</ins> aqui</p>
+                    <p>texto <small>para observações</small> aqui</p>
+                    <p>elemento químico O<sub>2</sub></p>
+                    <p>potenciação 2 <sup>5</sup></p>
+                </section>
+                <hr>
+                <section>
+                    <p>texto legal</p>
+                    <blockquote>citação longa</blockquote>
+                    <p>igor falou que <q>a apresentação foi boa</q></p>
+                    <p>texto bacana do livro <cite>Livro legal</cite></p>
+                    <p><abbr title="Serviço Social da Indústria">SESI</abbr></p>
+                </section>
+                <hr>
+                <section>
+                    <h3>Tabela</h3>
+                    <table border="1">
+                        <thead>
+                            <tr>
+                                <td>Nome</td>
+                                <td>Idade</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Leticia</td>
+                                <td>16 anos</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="2">FIM</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </section>
+                <hr>
+                <section>
+                    <h3>Formulário</h3>
+                    <form>
+                        <fieldset>
+                            <legend>Dados</legend>
+                            <label>Nome</label> <br>
+                            <input type="text">
+                            <br><br>
+                            <label>Mensagem</label> <br>
+                            <textarea></textarea>
+                            <br><br>
+                            <label>Selecione</label>
+                            <select>
+                                <optgroup label="grupo">
+                                    <option>opção</option>
+                                </optgroup>
+                                <optgroup label="grupo2">
+                                    <option>opção 2</option>
+                                </optgroup>
+                            </select>
+                            <br><br>
+                            <label>Cidade</label><br>
+                            <input list="cidades">
+                            <datalist id="cidades">
+                                <option value="Birigui">
+                                <option value="Bauru">
+                                <option value="Bilac">
+                            </datalist>
+                            <br><br>
+                            <output>Resultado</output>
+                            <br><br>
+                            <button type="submit">Enviar</button>
+                        </fieldset>
+                    </form>
+                </section>
+                <hr>
+                <section>
+                    <h3>Técnico</h3>
+                    <time datetime="2026-04-09">Hoje</time>
+                    <br>
+                    <data value="100">Produto x</data>
+                    <br>
+                    <code>print('Hello World)</code>
+                    <br>
+                    <kbd>Ctrl + B</kbd>
+                    <br>
+                    <samp>Saída</samp>
+                    <br>
+                    <p>Encontre o valor de <var>x</var></p>
+                </section>
+                <hr>
+                <section>
+                    <h3>Interativos</h3>
+                    <details>
+                        <summary>Ver Mais</summary>
+                        <p>Conteúdo</p>
+                    </details>
+                    <br>
+                    <button onclick="d.showModal()">Abrir</button>
+                    <dialog id="d">
+                        <p>Janela</p>
+                        <button onclick="d.close()">Fechar</button>
+                    </dialog>
+                </section>
+                <hr>
+            </article>
+        </main>
+        <footer>
+            <adress>contato@gmail.com</adress>
+        </footer>
+    </body>
+</html>
